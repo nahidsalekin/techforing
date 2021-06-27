@@ -52,7 +52,7 @@ a.nav-link:after {
 
 .display {
     color: white;
-    background-image: url(./Images/header.jpg);
+    background-image: url(../Images/header.jpg);
     background-size: cover;
     background-position: center;
 }
