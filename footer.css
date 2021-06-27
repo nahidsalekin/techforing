@@ -1,0 +1,232 @@
+footer {
+    background-color: #182f59;
+    padding: 30px 0 0;
+    color: #fff
+}
+
+.footer-box {
+    margin-top: 20px
+}
+
+.footer-box h2 {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px
+}
+
+.white-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff
+}
+
+.line1 {
+    width: 85%
+}
+
+.footer-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.footer-box ul li {
+    margin-top: 15px;
+    transition: .5s
+}
+
+.footer-box ul li:hover {
+    padding-left: 5px
+}
+
+.footer-box ul li a {
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff
+}
+
+.footer-text {
+    color: #000;
+    margin-bottom: 0;
+    /* display: flex; */
+    align-items: center
+}
+
+.footer-bottom-sm {
+    display: none
+}
+
+.footer-down {
+    background-color: #f4f4f2;
+    padding: 40px 0;
+    margin-top: 25px
+}
+
+.footer-down-box {
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between
+}
+
+.footer-bottom a img {
+    border-radius: 50%;
+    border: 1px solid #182f59;
+    background-color: #182f59;
+    height: 44px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+    transition: .1s
+}
+
+.footer-bottom a img:hover {
+    margin-top: 0
+}
+
+.copyright-btn {
+    color: #000;
+    font-family: poppins, sans-serif;
+    padding: 1px 0 0 2px;
+    border-radius: 20px
+}
+
+.copyright-btn i {
+    color: #fff;
+    background-color: #182f59;
+    padding: 7px 20px;
+    border-radius: 18px;
+    margin-left: 20px;
+    transition: .5s;
+    border: 2px solid #182f59
+}
+
+.copyright-btn:hover {
+    color: #000;
+    text-decoration: none
+}
+
+.copyright-btn:hover i {
+    background-color: transparent;
+    color: #182f59
+}
+
+.copyright-btn:focus {
+    border: 2px solid #182f59
+}
+
+.footer-box i {
+    display: none
+}
+
+.footer-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 80px 3px 5px;
+    border-radius: 20px;
+}
+
+.footer-btn::before {
+    content: "\f061";
+    position: absolute;
+    font-family: fontAwesome;
+    top: -1px;
+    right: -1px;
+    border: 2px solid #182f59;
+    background-color: #182f59;
+    color: #fff;
+    padding: 1px 17px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+@media screen and (max-width:765px) {
+    .footer-box {
+        position: relative
+    }
+    .footer-box i {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 22px;
+        transition: .5s
+    }
+    .caret-down i {
+        transform: rotate(180deg);
+        transition: .5s
+    }
+    .footer-box ul {
+        display: none
+    }
+    .expand-box ul {
+        display: block;
+        padding-left: 10px
+    }
+    .white-line {
+        display: none
+    }
+}
+
+@media screen and (max-width:480px) {
+    footer {
+        padding-top: 20px
+    }
+    .footer-box {
+        margin-top: 15px
+    }
+    .footer-bottom {
+        justify-content: flex-start
+    }
+    .footer-bottom a img {
+        margin: 10px
+    }
+    .footer-down {
+        padding: 20px 0
+    }
+    .copyright-btn {
+        margin-bottom: 20px
+    }
+    .footer-down-box {
+        flex-direction: column
+    }
+    .footer-box ul li {
+        margin-top: 8px
+    }
+    .footer-bottom-lg {
+        display: none
+    }
+    .footer-bottom-sm {
+        display: flex;
+        justify-content: center;
+        margin-top: 0
+    }
+}
+
+@media screen and (max-width:380px) {
+    .line1 {
+        width: 100%
+    }
+}
+
+.about-banner {
+    width: 100%;
+    background-image: url(../tfimg/about/Header.png);
+    background-size: cover;
+    background-position: top;
+    padding: 360px 0 290px
+}
+
+.about-btext {
+    color: #fff;
+    font-family: roboto slab, serif;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0 0 4px #000
+}
