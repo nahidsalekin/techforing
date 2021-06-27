@@ -590,20 +590,3 @@ footer {
         width: 100%
     }
 }
-
-.about-banner {
-    width: 100%;
-    background-image: url(../tfimg/about/Header.png);
-    background-size: cover;
-    background-position: top;
-    padding: 360px 0 290px
-}
-
-.about-btext {
-    color: #fff;
-    font-family: roboto slab, serif;
-    font-size: 55px;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0 0 4px #000
-}
